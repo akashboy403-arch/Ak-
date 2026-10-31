@@ -1,0 +1,92 @@
+{
+  "collections": {
+    "village_info": {
+      "documents": {
+        "giridharpur": {
+          "history": "string",
+          "introduction": "string",
+          "ward_details": "string",
+          "population": "number",
+          "updatedAt": "timestamp"
+        }
+      }
+    },
+    "panchayat_members": {
+      "documents": {
+        "{memberId}": {
+          "name": "string",
+          "role": "string",
+          "photoUrl": "string",
+          "contact": "string",
+          "order": "number"
+        }
+      }
+    },
+    "govt_schemes": {
+      "documents": {
+        "{schemeId}": {
+          "title": "string",
+          "description": "string",
+          "eligibility": "string",
+          "link": "string",
+          "category": "string"
+        }
+      }
+    },
+    "complaints": {
+      "documents": {
+        "{complaintId}": {
+          "userId": "string",
+          "title": "string",
+          "description": "string",
+          "category": "string",
+          "status": "string",
+          "imageUrl": "string",
+          "complaintNumber": "string",
+          "adminResponse": "string",
+          "createdAt": "timestamp",
+          "updatedAt": "timestamp"
+        }
+      }
+    },
+    "news": {
+      "documents": {
+        "{newsId}": {
+          "title": "string",
+          "content": "string",
+          "imageUrl": "string",
+          "timestamp": "timestamp"
+        }
+      }
+    },
+    "gallery": {
+      "documents": {
+        "{photoId}": {
+          "title": "string",
+          "imageUrl": "string",
+          "timestamp": "timestamp",
+          "category": "string"
+        }
+      }
+    },
+    "emergency_contacts": {
+      "documents": {
+        "{contactId}": {
+          "name": "string",
+          "number": "string",
+          "category": "string"
+        }
+      }
+    },
+    "users": {
+      "documents": {
+        "{userId}": {
+          "role": "string",
+          "name": "string",
+          "phone": "string",
+          "createdAt": "timestamp"
+        }
+      }
+    }
+  }
+}

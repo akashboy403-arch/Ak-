@@ -1,0 +1,6 @@
+{
+  "name": "NEZAI",
+  "description": "Digital Gram Panchayat App for Giridharpur",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
